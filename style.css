@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar section */
+.Navbar_sec{
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+.Navber_art{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left_nav{
+    padding: 0 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: blue;
+}
+.right_nav{
+    padding: 0 10px;
+    height: 70px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: brown;
+    cursor: pointer;
+}
+.right_nav label{
+    cursor: pointer;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right_nav:hover{
+    background-color: rgb(212, 233, 29);
+    transition: all 0.1 ease;
+}
+
+/* search section */
+.search_sec{
+    display: flex;
+    padding: 3rem;
+}
+form input{
+    width: 30rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    background-color:aquamarine;
+    border: 1px solid black;
+}
+.btn{
+    margin-left: 2rem;
+    padding: 0 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: blueviolet;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(155, 81, 224);
+}
+
+/* all list */
+.list{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.list_item{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: yellowgreen;
+}
+.list_update{
+    display: flex;
+    justify-content: flex-end;
+}
+.list_edit{
+    margin: 0 0.25rem;
+    font-weight: 600;
+    user-select: none;
+}
+.list_edit:hover{
+    color: red;
+    background-color: yellow;
+    cursor: pointer;
+}
+.list_delete{
+    margin: 0 0.25rem;
+    font-weight: 600;
+    user-select: none;
+}
+.list_delete:hover{
+    color: red;
+    background-color: yellow;
+    cursor: pointer;
+}
